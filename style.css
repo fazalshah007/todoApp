@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #181C14;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+
+.field{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 3rem;
+}
+
+input{
+    width: 60%;
+    height: 40px;
+    outline: none;
+    font-size: 14px;
+    background-color: white;
+    border: 2px solid transparent;
+    color: #3C3D37;
+    padding: 5px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.add-btn{
+    /* padding: 0.5rem; */
+    width: 40px;
+    height: 40px;
+    background-color: rgb(42, 246, 6);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.delete-btn{
+    width: 40px;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    background-color: rgb(252, 4, 4);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-left: 8px;
+}
+
+
+/* task section  */
+
+.task{
+    background-color: #3C3D37;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p{
+    width: 80%;
+    display: inline-block;
+    color: white;
+    overflow: hidden;
+}
+
+.btn-edit{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    font-size: 10px;
+    margin: 3px;
+}
+
+.btn-dlt{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(249, 1, 1);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    margin: 3px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .task{
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 0.5rem;
+    }
+}

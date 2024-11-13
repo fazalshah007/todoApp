@@ -6,34 +6,32 @@
     <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
     <link rel="stylesheet" href="main.css">
-    <title>Sign Up</title>
+    <title>log in</title>
 </head>
 <body>
    
-   
+
         <div class="container">
            
             <img src="https://media.istockphoto.com/id/1390242644/photo/smiling-people-in-the-meeting-room-using-a-laptop-searching-s.jpg?s=612x612&w=0&k=20&c=DtQoaRXByFbFNUXk1ZNIeWuQhTzKjsyC-1PeyenkfcE=" alt="">
             <div class="wrapper">
-                <h1>Sign up</h1>
+                <h1>Log in</h1>
+           
             <div>
-                <label for="sign-up-username">Username</label>
-                <input placeholder="Enter Username" id="sign-up-username" type="text">
+                <label for="login-email">Email</label>
+                <input placeholder="Enter Email" id="login-email" type="email">
             </div>
             <div>
-                <label for="sign-up-email">Email</label>
-                <input placeholder="Enter Email" id="sign-up-email" type="email">
+                <label for="login-password">Username</label>
+                <input placeholder="Enter Password" id="login-password" type="password">
             </div>
-            <div>
-                <label for="sign-up-password">Username</label>
-                <input placeholder="Enter Password" id="sign-up-password" type="password">
-            </div>
-            <button onclick="signUp()">Sign up</button>
-            <a href="signin.html">already have an account</a>
+            <button onclick="login()">Sign up</button>
+            <a href="index.html">create account</a>
         </div>
         </div>
-
+ 
     
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="app.js"></script>
 </html>
